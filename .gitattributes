@@ -1,0 +1,14 @@
+# Store text with LF line endings everywhere (Obsidian writes LF on Windows too)
+* text=auto eol=lf
+
+# Binary attachments: never touch line endings or try to diff them
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.mp3 binary
+*.mp4 binary
+*.m4a binary
+*.zip binary

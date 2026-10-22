@@ -1,0 +1,12 @@
+# Data is fetched by the scripts, never committed
+data/
+
+# Python caches, environments and notebooks' checkpoints
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# OS clutter
+.DS_Store
+Thumbs.db
